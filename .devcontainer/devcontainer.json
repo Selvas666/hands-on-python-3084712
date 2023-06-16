@@ -28,5 +28,8 @@
 		"ms-python.vscode-pylance"
 	],
 	"remoteUser": "vscode",
-	"onCreateCommand": "echo PS1='\"$ \"' >> ~/.bashrc" //Set Terminal Prompt to $
+	"onCreateCommand": "echo PS1='\"$ \"' >> ~/.bashrc", //Set Terminal Prompt to $
+	"forwardPorts": [
+		3000
+	]
 }
